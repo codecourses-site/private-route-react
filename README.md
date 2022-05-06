@@ -23,9 +23,9 @@
 
 ## 2. Live Demo
 
-- For the full course, You can refer to this [link]().
+- For the full course, You can refer to this [link](https://codecourses.site/react/how-to-build-private-routes-in-react/).
 
-- You can refer to this [Youtube video]() for the live demo.
+- You can refer to this [Youtube video](https://www.youtube.com/watch?v=53cCPOw0-Jk) for the live demo.
 
 <a id="technologies"></a>
 
