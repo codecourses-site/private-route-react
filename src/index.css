@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #112b3c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.app__container {
+  background-color: #fff;
+  left: 15rem;
+  min-height: 100vh;
+  position: fixed;
+  top: 3.5rem;
+  width: calc(100vw - 15rem);
+}
+
+.login__container {
+  background-color: #f0f2f5;
+  display: grid;
+  grid-template-columns: 55% 45%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.login__logo {
+  width: 10.25rem;
+  padding-left: 2.125rem;
+}
+
+.login__logo img {
+  width: 10.25rem !important;
+}
+
+.login__welcome {
+  padding-left: 10.5rem;
+  padding-top: 13.5rem;
+}
+
+.login__welcome img {
+  width: 18.75rem;
+}
+
+.login__welcome p {
+  font-size: 2rem;
+  padding-left: 2.125rem;
+}
+
+.login__form-container {
+  padding-top: 6.5rem;
+}
+
+.login__form {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  padding: 1.25rem;
+  width: 24.75rem;
+}
+
+.login__form input {
+  border: 1px solid #e5e7eb;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  padding: 0.875rem 1rem;
+  width: 100%;
+}
+
+.login__submit-btn {
+  background-color: #0b65c2;
+  border: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  outline: none;
+  padding: 0.875rem 1rem;
+  width: 100%;
+}
+
+.login__submit-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.login__forgot-password {
+  border-bottom: 1px solid #e5e7eb;
+  color: #0b65c2;
+  display: block;
+  font-size: 0.9375rem;
+  padding: 1.25rem 0;
+  text-align: center;
+}
+
+.login__forgot-password:hover {
+  cursor: pointer;
+}
+
+.login__signup {
+  color: #0b65c2;
+  display: block;
+  font-size: 0.9375rem;
+  padding: 1.25rem 0;
+  text-align: center;
+}
+
+.login__signup:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.home {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.home button {
+  align-items: center;
+  background: #205375;
+  border-radius: 0.25rem;
+  border: none;
+  color: #fff;
+  display: flex;
+  font-size: 1rem;
+  font-weight: 600;
+  justify-content: center;
+  outline: none;
+  padding: 1rem 1.5rem;
+}
+
+.home button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
